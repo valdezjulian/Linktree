@@ -1,0 +1,61 @@
+/* Responsividade para telas menores (máximo 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+        /* Reduz o tamanho da fonte */
+    }
+
+    .profile-card {
+        padding: 15px;
+        /* Ajusta o padding */
+        max-width: 350px;
+        /* Reduz a largura máxima */
+    }
+
+    .buttons {
+        gap: 10px;
+        /* Menor espaço entre botões */
+    }
+
+    .button {
+        padding: 12px;
+        /* Reduz o padding dos botões */
+    }
+}
+
+/* Responsividade para telas muito pequenas (máximo 480px) */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        /* Adiciona padding ao corpo */
+    }
+
+    .profile-image {
+        width: 100px;
+        /* Reduz o tamanho da imagem de perfil */
+        height: 100px;
+        /* Reduz a altura da imagem */
+    }
+
+    h1 {
+        font-size: 1.3em;
+        /* Reduz o tamanho da fonte do título */
+    }
+
+    .profile-card {
+        padding: 10px;
+        /* Reduz o padding do cartão */
+    }
+
+    .button {
+        padding: 10px;
+        /* Reduz o padding dos botões */
+        font-size: 0.9em;
+        /* Reduz o tamanho da fonte nos botões */
+    }
+
+    .footer-text {
+        font-size: 0.8em;
+        /* Reduz o tamanho da fonte no rodapé */
+    }
+}
