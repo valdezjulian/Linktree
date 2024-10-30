@@ -72,9 +72,9 @@ body {
 
 /* Cartão de perfil com fundo translúcido e animações */
 .profile-card {
-    background: rgba(15, 15, 20, 0.3);
+    background: rgba(24, 11, 11, 0.3);
     /* Fundo translúcido */
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(50px);
     /* Efeito de desfoque no fundo */
     -webkit-backdrop-filter: blur(5px);
     /* Compatibilidade com navegadores Webkit */
